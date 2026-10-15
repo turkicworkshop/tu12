@@ -1,5 +1,9 @@
 ---
-title: "Home"
+title: "Tu+12 at Rutgers"
 ---
 <br><br>
-Coming soon...
+We are pleased to announce that the 12th iteration of the Workshop on Turkic and Languages in Contact with Turkic (TU+) will be hosted by the Department of Linguistics at Rutgers University. The workshop will be held at Rutges University in New Brunswick, NJ, on April 17-18, 2027 in-person. The abstract submissions are now open.
+
+TU+ is an annual workshop focusing on all aspects of linguistic research on Turkic languages, as well as on languages in contact with Turkic and on languages spoken in regions where Turkic languages are spoken. TU+ showcases theoretically informed and data-driven work across phonology, morphology, syntax, semantics, pragmatics, psycholinguistics, neurolinguistics, historical linguistics, and computational approaches. This year we would like to especially encourage phonologically- and phonetically-oriented contributions.
+
+Please reach out to us at turkicworkshop@gmail.com if you have any questions.
