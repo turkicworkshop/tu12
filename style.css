@@ -1,0 +1,367 @@
+/* =========================================================
+   Typography: Nanum Gothic (wider/stronger headings)
+   ========================================================= */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:800&display=swap');
+
+html, body {
+  font-family: "Lato", sans-serif !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  color: #333;
+  background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.5px;
+}
+
+/* Title block on the page (not the TOC) */
+h1.title { margin-bottom: .2rem; font-size: 2rem; }
+.subtitle, .author, .date { color: #555; margin: .1rem 0; }
+
+/* =========================================================
+   Links (content area): red by default -> grey on hover
+   ========================================================= */
+.toc-content a:link,
+a:link {
+  color: #CC0033 !important;
+  text-decoration: none;
+}
+.toc-content a:hover,
+a:hover {
+  color: #777 !important;
+  text-decoration: none;
+}
+.toc-content a:visited,
+a:visited {
+  color: #CC0033 !important;
+}
+
+/* =========================================================
+   ✨ Interaction & Motion Add-ons (non-destructive)
+   – Paste BELOW your current CSS
+   – Honors prefers-reduced-motion
+   ========================================================= */
+
+/* Smooth scrolling for in-page TOC jumps */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* --- 1) Gentle page fade-in on load --- */
+@keyframes fadeInPage { from { opacity: 0 } to { opacity: 1 } }
+body {
+  opacity: 0;
+  animation: fadeInPage 450ms ease-in forwards;
+}
+
+/* --- 2) Smooth link color changes (uses your existing colors) --- */
+a,
+#TOC.tocify .tocify-item > a,
+#TOC.tocify .tocify-item > span {
+  transition: color 200ms ease, transform 200ms ease, text-decoration-color 200ms ease;
+}
+
+/* Subtle slide on TOC item hover (keeps your color rules) */
+#TOC.tocify .tocify-item > a:hover,
+#TOC.tocify .tocify-item > span:hover {
+  transform: translateX(4px);
+}
+
+/* --- 3) Headings highlight when navigated to (#hash targets) --- */
+h1:target, h2:target, h3:target, h4:target, h5:target, h6:target {
+  outline: 0; /* remove default focus ring if any */
+  background-color: rgba(204, 0, 51, 0.08); /* light red wash; doesn't change your text colors */
+  transition: background-color 600ms ease;
+}
+
+/* --- 4) Nicer focus for keyboard navigation (accessibility) --- */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 3px solid rgba(204, 0, 51, 0.45);
+  outline-offset: 2px;
+  border-radius: 4px;
+  transition: outline-color 200ms ease, outline-offset 200ms ease;
+}
+
+/* --- 5) Images: subtle lift on hover (no color changes) --- */
+.page-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.page-content img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+/* --- 6) Code blocks: soft glow on hover (non-intrusive) --- */
+pre, code, pre code {
+  transition: box-shadow 200ms ease, background-color 200ms ease;
+}
+pre:hover, code:hover {
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.06), 0 4px 12px rgba(0,0,0,0.06);
+}
+
+/* --- 7) Site banner;
+         retain smooth transitions --- */
+ .site-banner {
+  transition: background-color 200ms ease, color 200ms ease, transform 200ms ease;
+}
+.site-banner:hover {
+  transform: translateY(-1px);
+}
+
+/* Fade-up on scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #CC0033;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 300ms ease;
+  z-index: 1000;
+}
+#backToTop.show { opacity: 1; }
+#backToTop:hover { background: #777; }
+
+h1, h2, h3 {
+  position: relative;
+}
+h1::after, h2::after, h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 3px;
+  background: #CC0033;
+  transition: width 0.4s ease;
+}
+h1:hover::after, h2:hover::after, h3:hover::after {
+  width: 100%;
+}
+
+blockquote, pre {
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+blockquote:hover, pre:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+::selection {
+  background: #CC0033;
+  color: #fff;
+}
+
+/* Fancy underline for links */
+a {
+  position: relative;
+  color: #CC0033;             /* your default red */
+  text-decoration: none;      /* remove default underline */
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;               /* just below the text */
+  width: 100%;
+  height: 2px;
+  background: currentColor;   /* matches text color */
+  transform: scaleX(0);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform-origin: left;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+  opacity: 1;
+}
+/* =========================================================
+   MULTI-PAGE SITE: shared header, banner, navigation, footer
+   Use the same header/nav markup on each HTML page.
+   ========================================================= */
+:root { --rutgers-red: #CC0033; --page-width: 1100px; }
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; }
+.site-header { background: #fff; border-bottom: 1px solid #e5e5e5; }
+.site-header-inner { max-width: var(--page-width); margin: auto; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.site-brand { font-family: "Raleway", sans-serif; font-weight: 800; font-size: 1.35rem; line-height: 1.3; }
+.site-banner {
+  position: relative;
+  min-height: 280px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 40px 25px;
+
+  background:
+    linear-gradient(
+      rgba(204, 0, 51, 0.65),
+      rgba(204, 0, 51, 0.65)
+    ),
+    url("images/rutgers.jpg");
+
+  background-size: cover;
+  background-position: center 80%;
+
+  color: #fff;
+}
+.site-banner h1 {color: #fff;margin: 0;font-size: clamp(1.8rem, 3vw, 2.4rem);line-height: 1.3; max-width: 1000px; transform: translateY(60px);}
+.site-banner p { color: #fff; margin: 8px 0 0; transform: translateY(60px);}
+.site-nav { background: #f7f7f7; border-bottom: 1px solid #e5e5e5; }
+.site-nav-inner { max-width: var(--page-width); margin: auto; padding: 0 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
+.site-nav a:link, .site-nav a:visited { display: inline-block; padding: 12px 14px; color: var(--rutgers-red) !important; font-weight: 600; line-height: 1.5; }
+.site-nav a:hover, .site-nav a:focus-visible { color: #777 !important; background: #ededed; }
+.site-nav a[aria-current="page"] { color: #333 !important; border-bottom: 3px solid var(--rutgers-red); }
+.page-content { width: 100%; max-width: var(--page-width); margin: 0 auto; padding: 36px 24px 64px; flex: 1; }
+.page-content > :first-child { margin-top: 0; }
+.site-footer { background: #f7f7f7; border-top: 1px solid #e5e5e5; color: #555; text-align: center; padding: 20px 24px; font-size: .9rem; }
+/* Avoid decorative underline on layout/navigation links */
+.site-nav a::after, .site-brand a::after, .site-footer a::after, #backToTop::after { content: none; }
+.site-brand a:link, .site-brand a:visited { color: var(--rutgers-red) !important; }
+.site-banner a:link, .site-banner a:visited { color: #fff !important; }
+@media (max-width: 650px) {
+  .site-header-inner { flex-direction: column; align-items: flex-start; }
+  .site-banner { padding: 28px 18px; }
+  .site-nav-inner { padding: 4px 10px; }
+  .site-nav a:link, .site-nav a:visited { padding: 9px 10px; }
+  .page-content { padding: 26px 18px 48px; }
+}
+
+/* Optional legacy one-page TOC (add class="legacy-onepage" to body) */
+/* =========================================================
+   Floating TOC container
+   ========================================================= */
+body.legacy-onepage #TOC.tocify, body.legacy-onepage div#TOC.tocify {
+  background: #f7f7f7;
+  border-right: 1px solid #e5e5e5;
+  padding: 20px 18px;
+}
+body.legacy-onepage .toc-content {           /* keep main content from sitting under the TOC */
+  padding-left: 24px;
+  max-width: 900px;
+}
+
+/* TOC items: red default -> grey on hover */
+body.legacy-onepage #TOC.tocify .tocify-item > a,
+body.legacy-onepage #TOC.tocify .tocify-item > span {
+  color: #CC0033 !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+body.legacy-onepage #TOC.tocify .tocify-item > a:hover,
+body.legacy-onepage #TOC.tocify .tocify-item > span:hover {
+  color: #777 !important;
+  text-decoration: underline;
+}
+
+/* Active section in TOC (optional: keep red or set grey).
+   If you want active to be grey, uncomment the next block. */
+/*
+body.legacy-onepage #TOC.tocify .tocify-focus > a,
+body.legacy-onepage #TOC.tocify .tocify-focus > span {
+  color: #777 !important;
+  font-weight: 700 !important;
+}
+*/
+
+/* =========================================================
+   TOC "banner" (YAML title/subtitle injected into sidebar)
+   - Default grey; turns RED on hover
+   - Kill any nested blue boxes
+   ========================================================= */
+/* Normalize any header/title wrappers used by the template */
+body.legacy-onepage #TOC .tocify-header,
+body.legacy-onepage #TOC .tocify-title,
+body.legacy-onepage #TOC .tocify > .tocify-header,
+body.legacy-onepage #TOC .tocify > .tocify-title {
+  background: #CC0033 !important;     /* default grey */
+  color: #fff !important;
+  border: none !important;
+  padding: 12px 14px;
+}
+
+/* Remove inner dark/navy rectangles if they exist */
+body.legacy-onepage #TOC .tocify-header * ,
+body.legacy-onepage #TOC .tocify-title * {
+  background: transparent !important;
+  color: inherit !important;
+  border: none !important;
+}
+
+/* Hover the banner -> RED */
+body.legacy-onepage #TOC .tocify-header:hover,
+body.legacy-onepage #TOC .tocify-title:hover {
+  background: #aaa !important;
+  color: #fff !important;
+}
+
+/* Some Rmd themes render the banner inside .well/.card-header — neutralize them */
+body.legacy-onepage #TOC .well, body.legacy-onepage #TOC .card-header {
+  background-color: transparent !important;
+  color: inherit !important;
+  border: none !important;
+}
+
+
+/* R Markdown website compatibility */
+body { display: block; padding-top: 50px; }
+.navbar-default, .navbar { background: #CC0033 !important; border-color: #CC0033 !important; border-radius: 0; }
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:link,
+.navbar-default .navbar-brand:visited,
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:link,
+.navbar-default .navbar-nav > li > a:visited { color: #fff !important; }
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover { background: #990026 !important; color: #fff !important; }
+.navbar-default .navbar-toggle .icon-bar { background-color: #fff; }
+.navbar-default .navbar-toggle { border-color: rgba(255,255,255,.6); }
+.navbar a::after { display: none; }
+/* Shared banner injected by includes: before_body */
+.site-banner { margin: 0 calc(50% - 50vw) 30px; }
+.site-banner h1::after { display: none; }
+.site-banner h1 { line-height: 1.25; }
+.main-container { max-width: 1100px !important; padding-left: 24px; padding-right: 24px; }
+.main-container > .site-banner { margin-left: calc(50% - 50vw); margin-right: calc(50% - 50vw); }
+@media (max-width: 767px) { body { padding-top: 50px; } .site-banner { padding: 30px 16px; } }

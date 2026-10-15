@@ -1,0 +1,20 @@
+name: "12th Workshop on Turkic and Languages in Contact with Turkic"
+output_dir: "."
+navbar:
+  title: "TU+ 12 at Rutgers"
+  left:
+    - text: "Call for Papers"
+      href: callforpapers.html
+    - text: "Registration"
+      href: registration.html
+    - text: "Program"
+      href: program.html
+    - text: "Information"
+      href: information.html
+output:
+  html_document:
+    theme: flatly
+    css: style.css
+    toc: false
+    includes:
+      before_body: _banner.html
