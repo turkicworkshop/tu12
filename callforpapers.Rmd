@@ -1,20 +1,45 @@
 ---
 title: "Call for Papers"
 ---
-<br><br>
-12th Workshop on Turkic and Languages in Contact with Turkic
-<b>Submission Deadline</b>: 15-Dec-2026
-<b>Date</b>: 17-Apr-2027 - 18-Apr-2027
-<b>Location</b>: New Brunswick, NJ
-<b>Contact email</b>: turkicworkshop@gmail.com
+___
+We invite submissions for **TU+12**, which will be held in-person at Rutgers University, on April 17–18, 2027.
 
-We are pleased to announce that the 12th iteration of the Workshop on Turkic and Languages in Contact with Turkic (TU+) will be hosted by the Department of Linguistics at Rutgers University. The workshop will be held at Rutges University in New Brunswick, NJ, on April 17-18, 2027 in-person. The abstract submissions are now open.
+- Abstracts can be submitted for 30-minute talks (20-min. talk + 10-min. Q&A), poster presentations, or both.
 
-TU+ is an annual workshop focusing on all aspects of linguistic research on Turkic languages, as well as on languages in contact with Turkic and on languages spoken in regions where Turkic languages are spoken. TU+ showcases theoretically informed and data-driven work across phonology, morphology, syntax, semantics, pragmatics, psycholinguistics, neurolinguistics, historical linguistics, and computational approaches. This year we would like to especially encourage phonologically- and phonetically-oriented contributions.
+- All abstracts will be anonymously peer-reviewed.<br><br>
 
-The invited speakers are:
-- Michael Fiddler (Boğaziçi University)
-- Deepthi Gopal (UiT the Arctic University of Norway and Uppsala University)
-- Eszter Otott-Kovacs (University of Toronto)
+### Important Dates
+___
+- <b>Submission Deadline</b>: December 22, 2026<br>
+- <b>Notification of Acceptance</b>: January 31, 2027<br>
+- <b>Workshop Dates</b>: April 17-18, 2027<br>
+- <b>Location</b>: New Brunswick, NJ<br><br>
 
-Please reach out to us at turkicworkshop@gmail.com if you have any questions.
+
+### Submission Guidelines
+___
+- Abstracts must be anonymous and not contain excessive references to the publications of the author(s) or acknowledgments to granting agencies or academic bodies.
+- Abstracts should contain original research that, at the time of submission, has neither been published nor accepted for publication.
+- Authors may be involved in at most **two submissions**: i) one individual abstract and one joint abstract, or ii) two joint works.
+- Abstracts should not exceed **2 pages** in letter or A4 format with 1 inch margin on all sides, including examples, figures, and references.
+- The font should not be smaller than 11pt.
+- Submissions should be in **PDF format**.<br><br>
+
+### Topics
+___
+We welcome contributions on all aspects of linguistic research on Turkic languages, as well as on:<br>
+- Languages in contact with Turkic<br>
+- Languages spoken in regions where Turkic languages are spoken<br>
+- Theoretical, experimental, and computational approaches<br><br>
+
+### How to Submit
+___
+Submissions should be made through the [OpenReview platform](https://openreview.net/challenge?redirect=%2Fgroup%3Fid%3DTUplus%2F2027%2FWorkshop) by Sunday, December 22, 2026, 11:59 pm EST. <br>
+- <i>Make sure to create an OpenReview account at least two weeks prior to the submission deadline since it may take up to two weeks for your accounts to be verified.</i><br>
+- Please reach out to us at [turkicworkshop12@gmail.com](mailto:turkicworkshop12@gmail.com) if you have any questions.<br><br>
+
+### Invited Speakers
+___
+- [Michael Fiddler](https://sites.google.com/view/michaelfiddler) (Boğaziçi University)
+- [Deepthi Gopal](https://deepthigop.al) (UiT the Arctic University of Norway and Uppsala University)
+- [Eszter Ótott-Kovács](https://eszterotottkovacs.ca) (University of Toronto)
