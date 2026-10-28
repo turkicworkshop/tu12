@@ -94,10 +94,6 @@ Please review our [**Code of Conduct**](https://turkicworkshop.github.io/tu12/co
 
 - [Adam McCollum](https://www.adammccollum.net) (Rutgers)
 
-**Program Committee**
-
-- [Deniz Özyıldız](https://deniz.fr) (University of Stuttgart)
-
 :::
 
 ::: {style="min-width: 0;"}
@@ -112,11 +108,11 @@ Email the organisers at [turkicworkshop12@gmail.com](mailto:turkicworkshop12@gma
 
 ::: {style="text-align: center;"}
 
-![](images/rutgers-logo.png){width=75%}
+[![](images/rutgers-logo.png){width=50%}](https://www.rutgers.edu)
 
 <br>
 
-![](images/linguist-list-logo.png){width=75%}
+[![](images/linguist-list-logo.png){width=50%}](https://linguistlist.org/issues/37/3491/)
 
 :::
 

@@ -7,13 +7,13 @@ output: html_document
 
 TU+ is committed to providing a safe, welcoming, and harassment-free workshop for everyone—regardless of gender, gender identity or expression, sexual orientation, disability, physical appearance, body size, race, age, religion, language use, ethnicity, or nationality. Harassment of any kind will not be tolerated. Participants who violate these rules may be sanctioned or expelled at the discretion of the organisers.<br><br>
 
-### Unacceptable Behavior
+### Unacceptable Behaviours
 
 ---
 
 Harassment includes (but is not limited to):
 
-- Verbal comments that reinforce social hierarchies based on any protected
+- Verbal comments that reinforce social hierarchies based on any protected status
 - Displaying sexual or violent imagery in public spaces
 - Deliberate intimidation, stalking, or following
 - Targeted exclusion or encouragement of ostracism
