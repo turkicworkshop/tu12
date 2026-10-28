@@ -2,10 +2,10 @@
 title: "Information"
 ---
 
-<br><br>
+---
 
-## Accommodation
-There are many options in downtown New Brunswick. You can choose between a hotel or a rental space like AirBnB. Here are a few options:
+### Accommodation
+There are many options in downtown New Brunswick. You can choose between a hotel or a rental space like AirBnB. Here are a few options:<br>
 
 - [The Heldrich](https://www.theheldrich.com/accommodations/)
-- [Hyatt Regency](https://www.hyatt.com/en-US/shop/rooms/)
+- [Hyatt Regency](https://www.hyatt.com/search/hotels/en-US/New%20Brunswick%2C%20New%20Jersey%2C%20United%20States?checkinDate=2026-10-28&checkoutDate=2026-10-29&rooms=1&adults=1&kids=0&rate=Standard&accessibilityCheck=false)
