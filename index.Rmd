@@ -108,11 +108,11 @@ Email the organisers at [turkicworkshop12@gmail.com](mailto:turkicworkshop12@gma
 
 ::: {style="text-align: center;"}
 
-[![](images/rutgers-logo.png){width=50%}](https://www.rutgers.edu)
+![](images/rutgers-logo.png){width=50%}
 
 <br>
 
-[![](images/linguist-list-logo.png){width=50%}](https://linguistlist.org/issues/37/3491/)
+![](images/linguist-list-logo.png){width=50%}]
 
 :::
 
