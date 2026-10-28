@@ -1,0 +1,53 @@
+---
+title: "Code of Conduct"
+output: html_document
+---
+<br>
+TU+ is committed to providing a safe, welcoming, and harassment-free workshop for everyone—regardless of gender, gender identity or expression, sexual orientation, disability, physical appearance, body size, race, age, religion, language use, ethnicity, or nationality. Harassment of any kind will not be tolerated. Participants who violate these rules may be sanctioned or expelled at the discretion of the organisers.<br><br>
+
+### Unacceptable Behavior
+
+---
+
+Harassment includes (but is not limited to):
+
+- Verbal comments that reinforce social hierarchies based on any protected
+- Displaying sexual or violent imagery in public spaces
+- Deliberate intimidation, stalking, or following
+- Targeted exclusion or encouragement of ostracism
+- Harassing photography or recording
+- Sustained disruption of talks or events
+- Inappropriate physical contact
+- Unwelcome sexual attention
+- Advocating for, or encouraging, any of the above<br>
+
+These standards apply across all workshop activities, including in-person events, online platforms (email, chat, social media), and social gatherings related to the workshop.<br><br>
+
+### Enforcement
+
+---
+
+Participants asked to stop any harassing behavior are expected to comply immediately. Organisers may take any actions needed to maintain a respectful environment, including warnings, removal from events without refund, barring future participation, notifying institutional/funding bodies, or contacting venue security or law enforcement.<br><br>
+
+### Reporting
+
+---
+
+If you experience or witness a violation, or have other concerns, please contact us as soon as possible:
+
+- Email: [turkicworkshop12@gmail.com](mailto:turkicworkshop12@gmail.com)
+- In person: You may also approach any organiser during the workshop.<br>
+
+Organisers will take all good-faith reports seriously. We will make every effort to respect reporters’ privacy while assessing risk and determining appropriate responses. Retaliation for reporting or for assisting in an investigation will not be tolerated.<br><br>
+
+### Rutgers Jurisdiction
+
+---
+
+Because TU+12 is hosted at Rutgers, the workshop also falls under Rutgers’s institutional policies and procedures. Reports of misconduct may therefore be referred to Rutgers’s offices and handled in accordance with Rutgers’s rules and New Jersey law, in addition to actions taken by the TU+ organisers.<br><br>
+
+### Scope
+
+---
+
+This Code applies to all TU+ activities, including talks, poster sessions, receptions, breaks, and any online/remote interaction hosted by the workshop.

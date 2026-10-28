@@ -24,7 +24,7 @@ Since 2019, papers presented at TU+ have been invited to appear in an online pro
 
 - [Michael Fiddler](https://sites.google.com/view/michaelfiddler) (Boğaziçi University)
 - [Deepthi Gopal](https://deepthigop.al) (UiT the Arctic University of Norway and Uppsala University)
-- [Eszter Ótott-Kovács](https://eszterotottkovacs.ca) (University of Toronto)<br><br>
+- [Eszter Ótott-Kovács](https://eszterotottkovacs.ca) (University of Toronto)<br><br><br>
 
 ### Important Dates
 
@@ -78,7 +78,7 @@ Date
 
 ### Code of Conduct
 
-Please review our [**Code of Conduct**](#) before participating.<br><br><br>
+Please review our [**Code of Conduct**](https://turkicworkshop.github.io/tu12/codeofconduct) before participating.<br><br><br>
 
 ### Organizing Committee
 
