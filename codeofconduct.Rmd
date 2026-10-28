@@ -2,7 +2,9 @@
 title: "Code of Conduct"
 output: html_document
 ---
-<br>
+
+---
+
 TU+ is committed to providing a safe, welcoming, and harassment-free workshop for everyone—regardless of gender, gender identity or expression, sexual orientation, disability, physical appearance, body size, race, age, religion, language use, ethnicity, or nationality. Harassment of any kind will not be tolerated. Participants who violate these rules may be sanctioned or expelled at the discretion of the organisers.<br><br>
 
 ### Unacceptable Behavior
