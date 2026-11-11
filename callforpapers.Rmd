@@ -5,15 +5,50 @@ ___
 We invite submissions for **TU+12**, which will be held in-person at Rutgers University, on April 17–18, 2027.
 
 - Abstracts can be submitted for 30-minute talks (20-min. talk + 10-min. Q&A), poster presentations, or both.
-
 - All abstracts will be anonymously peer-reviewed.<br><br>
 
 ### Important Information
-___
-- <b>Submission Deadline</b>: December 22, 2026<br>
-- <b>Notification of Acceptance</b>: January 31, 2027<br>
-- <b>Workshop Dates</b>: April 17-18, 2027<br>
-- <b>Location</b>: New Brunswick, NJ<br><br>
+
+---
+
+
+:::: {style="width: 100%; margin-bottom: 35px;"}
+
+::: {style="display: grid; grid-template-columns: 35% 65%; padding: 0px 0; border-bottom: 1px solid #999; font-weight: bold;"}
+
+Milestone
+
+Date
+
+:::
+
+::: {style="display: grid; grid-template-columns: 35% 65%; padding: 0px 0; border-bottom: 1px solid #ddd;"}
+
+*abstract submission deadline*
+
+**December 22, 2026** - 11:59 PM EST
+
+:::
+
+::: {style="display: grid; grid-template-columns: 35% 65%; padding: 0px 0; border-bottom: 1px solid #ddd;"}
+
+*notification of acceptance*
+
+**January 31, 2027** - 11:59 PM EST
+
+:::
+
+::: {style="display: grid; grid-template-columns: 35% 65%; padding: 0px 0; border-bottom: 1px solid #ddd;"}
+
+*workshop*
+
+**April 17–18, 2027**
+
+:::
+::::
+<b>Location</b>: New Brunswick, NJ
+
+---
 
 
 ### Submission Guidelines
@@ -27,7 +62,8 @@ ___
 
 ### Topics
 ___
-We welcome contributions on all aspects of linguistic research on Turkic languages, as well as on:<br>
+We welcome contributions on all aspects of linguistic research on Turkic languages, as well as on:
+
 - Languages in contact with Turkic<br>
 - Languages spoken in regions where Turkic languages are spoken<br>
 - Theoretical, experimental, and computational approaches<br>
@@ -35,7 +71,8 @@ We welcome contributions on all aspects of linguistic research on Turkic languag
 
 ### How to Submit
 ___
-Submissions should be made through the [OpenReview platform](https://openreview.net/challenge?redirect=%2Fgroup%3Fid%3DTUplus%2F2027%2FWorkshop) by Sunday, December 22, 2026, 11:59 pm EST. <br>
+Submissions should be made through the [OpenReview platform](https://openreview.net/challenge?redirect=%2Fgroup%3Fid%3DTUplus%2F2027%2FWorkshop) by Sunday, December 22, 2026, 11:59 pm EST.
+
 - Please reach out to us at [turkicworkshop12@gmail.com](mailto:turkicworkshop12@gmail.com) if you have any questions.<br>
 - <i>Make sure to create an OpenReview account at least two weeks prior to the submission deadline since it may take up to two weeks for your accounts to be verified.</i><br><br>
 
