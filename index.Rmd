@@ -9,14 +9,13 @@ TU+ is an annual workshop focusing on all aspects of linguistic research on **Tu
 
 ::: {.panel-heading style="background-color: #CC0033; color: white; border-color: #CC0033;"}
 **ⓘ Note**
-:::
 
-::: {.panel-body}
 Since 2019, papers presented at TU+ have been invited to appear in an online proceedings volume distributed by the Linguistic Society of America.
 :::
 
 :::
 
+<br>
 
 ### Invited Speakers
 
@@ -85,7 +84,7 @@ Please review our [**Code of Conduct**](https://turkicworkshop.github.io/tu12/co
 **Student Organisers (Rutgers)**
 
 - Zoe Katz `zoe.katz@rutgers.edu`
-- Colin Hirschbirg `ckh51@scarletmail.rutgers.edu`
+- Colin Hirschberg `ckh51@scarletmail.rutgers.edu`
 - Utku Zobarlar `utku.zobarlar@rutgers.edu`
 - Merlin Balkhash `merlin.udinov@rutgers.edu`
 
@@ -112,7 +111,7 @@ Email the organisers at [turkicworkshop12@gmail.com](mailto:turkicworkshop12@gma
 
 <br>
 
-![](images/linguist-list-logo.png){width=50%}]
+![](images/linguist-list-logo.png){width=50%}
 
 :::
 
