@@ -83,7 +83,7 @@ Please review our [**Code of Conduct**](https://turkicworkshop.github.io/tu12/co
 
 **Student Organisers (Rutgers)**
 
-- Zoe Katz `zoe.katz@rutgers.edu`
+- [Zoe Katz](https://zoekatz14.github.io/website/index.html) `zoe.katz@rutgers.edu`
 - Colin Hirschberg `ckh51@scarletmail.rutgers.edu`
 - Utku Zobarlar `utku.zobarlar@rutgers.edu`
 - Merlin Balkhash `merlin.udinov@rutgers.edu`
