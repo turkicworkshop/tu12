@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif !important;
   font-weight: 800 !important;
   letter-spacing: 0.5px;
+  padding-top: 0 !important;
+  margin-top: 1em !important;   /* normal visible spacing above headings; adjust to taste */
+  scroll-margin-top: 60px;      /* keeps anchor jumps from hiding under the navbar */
+
 }
 
 /* Title block on the page (not the TOC) */
